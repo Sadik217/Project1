@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px){
+    .heading-part header{
+        height: 47px;
+    }
+    .tour-part .box-3 span{
+        margin-left: 80%;
+    }
+    .content-part .con-img{
+        height: 35vh;
+    }
+    .content-part .con-img h2{
+        position: absolute;
+        margin-top: 36%;
+        margin-left: 44%;
+        color: white;
+    }
+    .content-part .con-img h5{
+        color: white;
+        position: absolute;
+        margin-top: 41%;
+        margin-left: 34%;
+    }
+    .team #m{
+        display: inline-block;
+        margin-right: 30px;
+    }
+    .tour-part #p img{
+        width: 180px;
+    }
+    .tour-part #p{
+        width: 180px;
+        height: 312px;
+        margin-right: 33px;
+    }
+    .contact-part .left{
+        margin-left: 6%;
+    }
+}

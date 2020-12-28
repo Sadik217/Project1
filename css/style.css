@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+                            /*---- HEADING-SECTION ----*/
+
+.heading-part{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.heading-part header{
+    width: 100%;
+    height: 7vh;
+    background: black;
+}
+header ul{
+    position: absolute;
+}
+header ul li{
+    float: left;
+    list-style-type: none;
+    padding: 12.5px 20px;
+    text-align: center;
+}
+header ul li:hover{
+    background: #CCCCCC;
+}
+header ul li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+header ul li:hover a{
+    color: black;
+}
+header ul li i{
+    color: white;
+}
+header ul li:hover i{
+    color: black;
+} 
+
+                            /*---- DROPDOWN-SECTION ----*/
+
+.dropdown .drop-e{
+    position: absolute;
+    background: white;
+    box-shadow: 1px 1px 10px rgb(92, 92, 92);
+    margin-left: -20px;
+    margin-top: 12.5px;
+}
+.dropdown .drop-e a{
+    display: none;
+    padding: 6px 18px;
+    text-transform: capitalize;
+}
+.dropdown .drop-e a:hover{
+    background: #CCCCCC;
+}
+header ul .dropdown:hover .drop-e a{
+    display: block;
+}
+
+                            /*---- DROPDOWN-SECTION END ----*/
+
+header .h-right{
+    color: white;
+    float: right;
+    padding: 12.5px 22px;
+}
+header .h-right:hover{
+    background: rgb(241, 74, 56);
+}
+
+                            /*---- HEADING-SECTION END ----*/
+
+                                /*---- CONTENT-PART ----*/
+
+                            /*---- CONTENT-IMG-PART ----*/
+
+.content-part .con-img{
+    background: url('../img/la.jpg');
+    width: 100%;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-part .con-img h2{
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 45%;
+    color: white;
+}
+.content-part .con-img h5{
+    color: white;
+    position: absolute;
+    margin-top: 42%;
+    margin-left: 37%;
+}
+
+                            /*---- CONTENT-IMG-PART END ----*/
+
+                                /*---- THE-BAND-PART ----*/
+
+.the-band{
+    margin-top: 80px;
+}
+.the-band h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.the-band h4{
+    text-align: center;
+    color: gray;
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.the-band p{
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+    margin-top: 16px;
+    font-size: 15px;
+}
+
+                            /*---- THE-BAND-PART END ----*/
+
+                                /*---- TEAM-PART ----*/
+
+.team{
+    margin-top: 60px;
+    text-align: center;
+}
+.team #m{
+    display: inline-block;
+    margin-right: 80px;
+}
+.team #m:nth-child(3){
+    margin-right: 0;
+}
+.team #m h4{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+.team #m img{
+    width: 180px;
+}
+
+                                /*---- TEAM-PART END ----*/
+
+                                /*---- TOUR-PART ----*/
+
+.tour-part{
+    margin-top: 80px;
+    width: 100%;
+    height: 105vh;
+    background: black;
+    color: white;
+}               
+.tour-part h1{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.tour-part h4{
+    text-align: center;
+    color: gray;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.tour-part #b{
+    background: white;
+    width: 80%;
+    padding: 10px 5px;
+    border-bottom: solid 1px lightgray;
+    margin: auto;
+    color: gray;
+    box-sizing: border-box;
+}
+.tour-part .bb span{
+    background: #F44336;
+    color: white;
+    padding: 3px 6px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.tour-part .box-3 span{
+    background: black;
+    color: white;
+    padding: 1px 10px;
+    border-radius: 50px;
+    margin-left: 85%;
+}
+.places{
+    margin-left: 10%;
+}
+.tour-part .place-1{
+    margin-top: 20px;
+}
+.tour-part #p{
+    width: 260px;
+    height: 352px;
+    background: white;
+    color: black;
+    display: inline-block;
+    margin-right: 10px;
+}
+.tour-part #p:nth-child(3){
+    margin-right: 0px; 
+}
+.tour-part #p img{
+    width: 260px;
+}
+.tour-part #p h3{
+    margin-left: 10px;
+}
+.tour-part #p h5{
+    margin-left: 10px;
+    color: gray;
+    margin-top: 5px;
+}
+.tour-part #p p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.tour-part #p button{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: black;
+    color: white;
+    border: none;
+}
+
+                            /*---- TOUR-PART END ----*/
+
+                            /*---- CONTACT-PART ----*/
+
+.contact-part .top{
+    margin-top: 100px;
+}
+.contact-part .top h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.contact-part .top h5{
+    text-align: center;
+    color: gray;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.contact-part .left .st{
+    overflow: hidden;
+}
+.contact-part .left i{
+    margin-right: 16px;
+    margin-top: 4px;
+}
+.contact-part .left .st #st{
+    float: left;
+    font-size: 16px;
+    margin-bottom: 4px; 
+}
+.contact-part .left h5{
+    font-weight: 400;
+}
+.contact-part .left .nd{
+    overflow: hidden;
+}
+.contact-part .left .nd #nd{
+    float: left;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.contact-part .left .rd{
+    overflow: hidden;
+}
+.contact-part .left .rd #rd{
+    float: left;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.contact-part .left{
+    margin-top: 60px;
+    margin-left: 160px;
+}
+.contact-part #bth{
+    float: left;
+}
+.contact-part .right{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.contact-part .right input{
+    display: block;
+}
+.contact-part .right .ovf #sm{
+    float: left;
+    width: 186px;
+    height: 30px;
+    padding: 3px 10px;
+    margin-right: 15px;
+    border: lightgray 1px solid;
+    box-sizing: border-box;
+}
+.contact-part .right #nsm{
+    width: 387px;
+    height: 30px;
+    margin-top: 40px;
+    position: absolute;
+    border: 1px solid lightgray;
+    padding: 3px 10px;
+    box-sizing: border-box;
+}
+.contact-part .right input[type="submit"]{
+    border: none;
+    margin-top: 80px;
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    margin-left: 302px;
+}
+.contact-part .right input[type="submit"]:hover{
+    color: black;
+    background: rgb(163, 163, 163);
+}
+
+                            /*---- CONTACT-PART END ----*/
+
+                            /*---- FOOTER-SECTION ----*/
+
+.footer-section .footer-img img{
+    width: 100%;
+    height: auto;
+    filter: grayscale(40%);
+    margin-top: 100px;
+}
+.footer-section h4{
+    color: coral;
+    margin-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
